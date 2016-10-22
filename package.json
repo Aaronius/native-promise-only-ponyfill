@@ -1,6 +1,6 @@
 {
   "name": "native-promise-only-ponyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Thin wrapper for native-promise-only which prevents it from setting Promise as a global.",
   "main": "./lib/index.js",
   "scripts": {
