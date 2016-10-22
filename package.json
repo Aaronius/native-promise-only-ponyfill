@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Aaronius/native-promise-only-ponyfill#readme",
   "dependencies": {
-    "native-promise-only": "^0.8.1"
+    "native-promise-only": "*"
   },
   "devDependencies": {
     "uglify-js": "^2.7.3"
