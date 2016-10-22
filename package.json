@@ -1,0 +1,32 @@
+{
+  "name": "native-promise-only-ponyfill",
+  "version": "1.0.0",
+  "description": "Thin wrapper for native-promise-only which prevents it from setting Promise as a global.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "mkdir -p lib && uglifyjs src/index.js -c -m -o lib/index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aaronius/native-promise-only-ponyfill.git"
+  },
+  "akeywords": [
+    "ES6",
+    "Promise",
+    "async",
+    "promises-aplus"
+  ],
+  "author": "Aaron Hardy <aaron@aaronhardy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aaronius/native-promise-only-ponyfill/issues"
+  },
+  "homepage": "https://github.com/Aaronius/native-promise-only-ponyfill#readme",
+  "dependencies": {
+    "native-promise-only": "^0.8.1"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.3"
+  }
+}
